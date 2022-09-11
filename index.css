@@ -1,0 +1,17 @@
+table, td, th {
+    border: 1px solid red;   
+  }
+  
+  thead {
+    float: left;   
+  }
+  
+  
+  thead th {
+    display: block;   
+    background: yellow;
+  }
+  
+  tbody {
+    float: right;   
+  }
