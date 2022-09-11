@@ -1,8 +1,8 @@
-table, td, th {
+/* table, td, th {
     border: 1px solid red;   
-  }
+  } */
   
-  thead {
+  /* thead {
     float: left;   
   }
   
@@ -14,4 +14,21 @@ table, td, th {
   
   tbody {
     float: right;   
-  }
+  } */
+
+table, td{
+  border: 1px solid red;  
+}
+
+/* Retirar as setas do input */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
