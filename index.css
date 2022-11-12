@@ -16,8 +16,49 @@
     float: right;   
   } */
 
+body{
+  background-color: black;
+}
+main{
+  display: flex;
+  justify-content: center;
+}
+
+.titulo{
+  font-size: 20px;
+
+}
+
+.titulo > td{
+  padding-left: 10px;
+}
+
+
+
+/* tr{
+  font-size: 14pt;
+  background-color: white;
+  color: white;
+  
+} */
+th{
+  font-size: 14pt;
+  background-color: green;
+  color: white;
+}
+td{
+  font-size: 14pt;
+  background-color:#000066;
+  color: #CCCCCC;
+  padding-left: 10px;
+ 
+}
+/* .titulo > tr{
+  border: #a782b6;
+} */
+
 table, td{
-  border: 1px solid red;  
+  border: 8px solid #000066;  
 }
 
 /* Retirar as setas do input */
