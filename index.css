@@ -18,10 +18,16 @@
 
 body{
   background-color: black;
-}
-main{
   display: flex;
   justify-content: center;
+  align-items: center;
+ 
+}
+h1{
+  color: #CCCCCC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .titulo{
