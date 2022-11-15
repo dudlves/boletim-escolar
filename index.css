@@ -15,7 +15,9 @@
   tbody {
     float: right;   
   } */
-
+*{ 
+  font-family: 'Rhodium Libre'; 
+}
 body{
   background-color: black;
   display: flex;
